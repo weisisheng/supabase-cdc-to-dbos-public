@@ -53,7 +53,7 @@ export class EventCatcher {
   // openssl rand -base64 20
   // remove any equals sign character at the end
   //
-  @PostApi("/OBstAqG6qOv7cWXCqgg")
+  @PostApi("/OBstAqG6qOv7cWXCzzz")
   @Workflow()
   static async CDCWatcherArchiverWorkflow(ctxt: WorkflowContext) {
     // this is the event received from supabase

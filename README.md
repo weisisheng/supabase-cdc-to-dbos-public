@@ -1,11 +1,12 @@
 # supabase-cdc-to-dbos-public
 
-This is a simple application that listens to changes in a Supabase table and inserts the changes into a DBOS postgres table.
+This is a simple application that webhook that listens for inserts to a Supabase table and sends the changes to a DBOS postgres table.
 
+See the following dev.to article for more details: https://dev.to/vince_hirefunnel_co/dbos-cloud-minimal-effort-change-data-capture-cdc-tool-4c0d
 
----------------------------------------------
+---
 
-# sample insert
+# sample event payload
 
 ```
 [
